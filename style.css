@@ -12,6 +12,8 @@ body {
     background-color: wheat;
 }
 
+
+
 header {
     position: relative;
     display: flex;
@@ -98,4 +100,43 @@ header h1 {
         padding: 2rem;
         margin-bottom: 2rem;
     }
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe_container {
+    width: 80%;
+    background-color: #F7F9F9;
+    border-radius: 20px;
+    padding: 2rem;
+    -webkit-box-shadow: 4px 6px 6px -3px rgba(0,0,0,0.56); 
+    box-shadow: 4px 6px 6px -3px rgba(0,0,0,0.56); 
+
+}
+
+.recipe_container h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.recipe_container p {
+    font-size: 1.2rem;
+}
+
+.overview {
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.overview p {
+    font-size: 1rem;
+    color: grey;
 }
