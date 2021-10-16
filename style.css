@@ -180,3 +180,36 @@ main {
     margin-left: 2rem;
     line-height: 1.6rem;
 }
+
+.card {
+    margin-top: 2rem;
+    width: 40%;
+    -webkit-box-shadow: 4px 6px 6px -3px rgba(0,0,0,0.56); 
+    box-shadow: 4px 6px 6px -3px rgba(0,0,0,0.56); 
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.card div {
+    padding: 2rem;
+   
+}
+
+
+
+
+.cardheader {
+    background-color: white;
+}
+
+.cardmiddle {
+    background-color: grey;
+    
+    
+    
+}
+
+.cardfooter {
+    background-color: thistle;
+}
