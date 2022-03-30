@@ -64,6 +64,13 @@ header h1 {
     }
 }
 
+@media (max-width: 760px) {
+      header h1 {
+        font-size: 4rem;
+        
+    }
+}
+
 .links {
     padding: 2rem;
     display: flex;
