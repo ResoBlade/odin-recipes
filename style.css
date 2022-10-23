@@ -195,6 +195,7 @@ main {
 
 .card div {
     padding: 2rem;
+word-break: break-all;
    
 }
 
